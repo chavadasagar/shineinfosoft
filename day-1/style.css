@@ -1,0 +1,30 @@
+.root
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+    border: 5px solid #3498db;
+}
+input{
+    border: 1px solid black;
+    padding: 10px;
+    /* width: 100%; */
+}
+.root .ac_info h3,.root .pr_info h3,.root .tandc h3{
+    background: rgb(82, 123, 168);
+    color: white;
+    padding: 5px;
+}
+.root .btn
+{
+    text-align: right;    
+}
+.root .btn button
+{
+    background-color: #e67e22;
+    color: white;
+    padding: 10px;
+    border: none;
+} 

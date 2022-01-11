@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day-1</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="root">
+      <div class="ac_info">
+        <h3>Account Information</h3>
+        <table>
+          <tr>
+            <td><input type="text" placeholder="* Email Id" /></td>
+            <td style="display: none;"><input type="text" placeholder="* Email Id" /></td>
+            <td><input type="text" placeholder="* Confirm Email Id" /></td>
+          </tr>
+          <tr>
+            <td><input type="text" placeholder="* Password" /></td>
+            <td style="display: none;"><input type="text" placeholder="* Password" /></td>
+            <td><input type="text" placeholder="* Re Password" /></td>
+          </tr>
+        </table>       
+      </div>
+      <div class="pr_info">
+        <h3>Personal Information</h3>
+        <table>
+          <tr>
+            <td><input type="text" class=".input-br" placeholder="* Company name" /></td>
+            <td><input type="text" placeholder="* First Name" /></td>
+            <td><input type="text" placeholder="Last Name" /></td>
+          </tr>
+          <tr>
+            <td>
+              <select name="contr" id="" style="padding: 3px">
+                <option value="" selected disabled>Select country</option>
+                <option value="">India</option>
+                <option value="">usa</option>
+                <option value="">china</option>
+              </select>
+            </td>
+            <td><input type="text" placeholder="* State" /></td>
+            <td><input type="text" placeholder="* City" /></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><input type="text" placeholder="* zip" /></td>
+            <td><input type="text" placeholder="* Phone" /></td>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                placeholder="* Addresss"
+                style="width: 100%"
+                rows="10"
+              ></textarea>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="tandc">
+          <h3>Personal Information</h3>
+        <input type="checkbox" />Please check this box to confirm your agreement
+        to the <a href="#">terms and condition</a>
+        <br />
+        <input type="checkbox" />Please check this box to allow us to add you to
+        out email list
+      </div>
+      <br>
+      <div class="btn">
+        <button>Sign Up</button>
+        <button>Cancel</button>
+      </div>
+    </div>
+  </body>
+</html>
